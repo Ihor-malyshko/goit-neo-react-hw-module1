@@ -1,0 +1,46 @@
+.friendList {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  margin: 0;
+}
+
+.friendCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 18px;
+  border: 1px solid #dcdcdc;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+  min-height: 170px;
+}
+
+.friendCard img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.friendCard p {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.friendName {
+  font-weight: 700;
+}
+
+.statusOnline {
+  color: #2a9d8f;
+}
+
+.statusOffline {
+  color: #e63946;
+}

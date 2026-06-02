@@ -1,0 +1,43 @@
+.transactionTable {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto 32px;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.transactionHead {
+  background: #f3f4f6;
+}
+
+.transactionHead th {
+  padding: 16px 20px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #374151;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.transactionBody tr:nth-child(odd) {
+  background: #f9fafb;
+}
+
+.transactionBody td {
+  padding: 16px 20px;
+  color: #111827;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.transactionBody tr:last-child td {
+  border-bottom: none;
+}
+
+.transactionType {
+  text-transform: capitalize;
+}
